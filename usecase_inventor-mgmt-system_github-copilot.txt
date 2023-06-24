@@ -1,0 +1,59 @@
+Use Case: Develop Inventory Management System in Java
+Utilizing Copilot for Code Generation 
+
+Introduction:
+In this use case, we explore how GitHub Copilot, an AI-powered code generation tool, assisted in developing the code for an Inventory Management System built using Spring Boot and REST API. With Copilot integrated into Visual Studio Code, the process of writing API implementations and test cases was simplified, eliminating the need for manual logic implementation.
+
+Problem Statement:
+create an Inventory Management System with the following APIs:
+
+1)View the list of products available in the system.
+2)Create a product
+3)Update a product
+4)Delete a product from the system.
+5)Retrieve stock/quantity information for a product.
+
+Solution using GitHub Copilot:
+To streamline the development process and leverage the capabilities of GitHub Copilot, the following steps were taken:
+
+Step 1: Setting up the Development Environment
+
+The development environment consisted of Visual Studio Code, a popular code editor.
+The GitHub Copilot extension was installed and configured within Visual Studio Code.
+
+Initially I've added the dependencies required for spring boot web project and created inventory-mgmt-system project.
+
+
+Added required files : Rest Controller: InventoryManagementController, Service:Interface: IInventoryManagementService, Implementation: InventoryManagementServiceImpl, Repository: InventoryManagementRepository, Model : Product
+
+Step 2: Creating the API Skeleton
+
+Using the Spring Boot framework, the necessary REST API endpoints were defined within the application.
+For each API, the corresponding method names were implemented, such as getProducts(), createProduct(), updateProduct(), deleteProduct(), and checkStockAvailability().
+
+Step 3: Leveraging GitHub Copilot
+
+With the method names defined, Copilot provided valuable assistance by generating the initial code logic for each API.
+For example, when implementing the viewProductList() API, Copilot suggested code snippets that fetched the list of products from the system and returned them to the client.
+Similarly, for the createProduct() API, Copilot generated code snippets that handled the creation of a new product, including database operations and error handling.
+This pattern continued for the remaining APIs, where Copilot consistently provided accurate and context-aware code suggestions based on the method names.
+
+Step 4: Refining and Customizing Generated Code
+
+Although Copilot generated the initial code, it was further refined and customized as per specific requirements.
+
+
+Step 5: Testing the API Implementations
+
+Copilot's assistance extended to generating test cases for the implemented APIs as well.
+It has suggested to create required mock beans, test aces.
+Test case skeletons were automatically suggested based on the API names, covering different scenarios such as successful execution, error handling, and edge cases.
+
+Benefits and Outcomes:
+By integrating GitHub Copilot into the development process of the Inventory Management System, the following benefits were realized:
+Time-saving: Copilot significantly reduced the time required to write the initial code logic for the APIs by generating accurate and relevant suggestions.
+Code quality: The AI-powered suggestions assisted in reducing common coding errors, enhancing code quality, and improving maintainability.
+Faster testing: Copilot's generation of test case skeletons accelerated the testing process, enabling thorough validation of the implemented APIs.
+
+
+In conclusion, GitHub Copilot proved to be an invaluable tool for code generation during the development of the Inventory Management System. By automating the initial code logic and test case generation, Copilot expedited the development process, improved code quality, and increased overall productivity.
