@@ -71,8 +71,8 @@ Response: Product ABC cookies is out of stock
  ![image](https://github.com/sribindu-thottempudi/inventory-mgmt-system/assets/137598786/0bcdd955-8e5e-4997-a734-61aaa47b56b1)
 
 
-#Inventory Management System -Use Case
-#Use Case: Develop Inventory Management System in Java
+# Inventory Management System -Use Case
+# Use Case: Develop Inventory Management System in Java
 Utilizing Copilot for Code Generation 
 
 Introduction:
